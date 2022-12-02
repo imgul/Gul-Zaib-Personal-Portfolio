@@ -59,6 +59,7 @@ body {
     url("/assets/font/ProximaNova-Regular.otf") format("truetype");
   font-display: swap;
 }
+
 @font-face {
   font-family: "Jetbrains";
   font-style: normal;
@@ -260,7 +261,7 @@ h4 {
   position: absolute;
   top: 50px;
   left: -20px;
-  background-image: url(/img/home/html5.svg);
+  background-image: url(https://skillicons.dev/icons?i=js&theme=dark);
   background-repeat: no-repeat;
   width: 60px;
   height: 60px;
@@ -273,7 +274,7 @@ h4 {
   position: absolute;
   bottom: -20px;
   right: 32%;
-  background-image: url(/img/home/javascript.svg);
+  background-image: url(https://skillicons.dev/icons?i=laravel);
   background-size: 60px;
   background-repeat: no-repeat;
   width: 90px;
@@ -288,7 +289,7 @@ h4 {
   right: -30px;
   width: 60px;
   height: 60px;
-  background-image: url(/img/home/css3.svg);
+  background-image: url(https://skillicons.dev/icons?i=php);
   background-repeat: no-repeat;
 }
 
@@ -637,60 +638,79 @@ h4 {
   10% {
     transform: translateX(100px);
   }
+
   15% {
     transform: translateY(-100px);
   }
+
   20% {
     transform: translateX(200px);
   }
+
   25% {
     transform: translateY(-200px);
   }
+
   30% {
     transform: translateX(300px);
   }
+
   35% {
     transform: translateY(-300px);
   }
+
   40% {
     transform: translateX(110px);
   }
+
   45% {
     transform: translateY(-110px);
   }
+
   50% {
     transform: translateX(130px);
   }
+
   55% {
     transform: translateY(-130px);
   }
+
   60% {
     transform: translateX(150px);
   }
+
   65% {
     transform: translateY(-150px);
   }
+
   70% {
     transform: translateX(170px);
   }
+
   75% {
     transform: translateY(-170px);
   }
+
   80% {
     transform: translateX(190px);
   }
+
   85% {
     transform: translateY(-190px);
   }
+
   90% {
     transform: translateX(210px);
   }
+
   95% {
     transform: translateY(-210px);
   }
+
   100% {
     transform: translateX(100px);
   }
+
   105% {
     transform: translateY(-100px);
   }
@@ -789,6 +809,7 @@ h4 {
 #footer .btn-scroll-top span {
   transition: all 0.3s cubic-bezier(0, 0, 1, 0);
 }
+
 #footer .btn-scroll-top:hover span {
   transform: translateY(-5px);
 }
@@ -819,6 +840,7 @@ h4 {
 
 /* Responsive */
 @media (max-width: 890px) {
+
   /* Project */
   .project-content {
     grid-template-columns: 1fr;
