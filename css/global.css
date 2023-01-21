@@ -301,6 +301,7 @@
 .icons a,
 .icons .icon {
   width: 50px;
+  margin: 0.5rem;
 }
 
 /* Cards */
