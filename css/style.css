@@ -2,7 +2,17 @@
 
 :root {
   /* Light Mode */
-  --primary-color: #7360ff;
+  --primary-color: #1d6fff;
+  --secondary-color: #1d6fff;
+  --text-primary-color: #001942;
+  --text-secondary-color: #b6ccd7;
+  --bg-primary-color: rgb(218, 226, 255);
+  --bg-secondary-color: #eaebf7;
+  --other-color: #b6ccd7;
+  --navbar-bg: rgba(26, 34, 59, 0.1);
+  --rotate-color: #000;
+
+  /* --primary-color: #7360ff;
   --secondary-color: #9a9bef;
   --text-primary-color: #333333;
   --text-secondary-color: #64707d;
@@ -10,7 +20,7 @@
   --bg-secondary-color: #f2f2f2;
   --other-color: #ccc;
   --navbar-bg: rgba(0, 0, 0, 0.1);
-  --rotate-color: #000;
+  --rotate-color: #000; */
 
   /* Icons */
   --color-1: #e65100;
@@ -21,7 +31,17 @@
 
 [data-theme="dark"] {
   /* Dark Mode */
-  --primary-color: #7360ff;
+  --primary-color: #1d6fff;
+  --secondary-color: #989aef;
+  --text-primary-color: #fff;
+  --text-secondary-color: #64707d;
+  --bg-primary-color: #001942;
+  --bg-secondary-color: #151f28;
+  --other-color: #232323;
+  --navbar-bg: rgba(0, 0, 0, 0.4);
+  --rotate-color: #fff;
+
+  /* --primary-color: #7360ff;
   --secondary-color: #989aef;
   --text-primary-color: #fff;
   --text-secondary-color: #64707d;
@@ -29,7 +49,7 @@
   --bg-secondary-color: #111;
   --other-color: #232323;
   --navbar-bg: rgba(0, 0, 0, 0.4);
-  --rotate-color: #fff;
+  --rotate-color: #fff; */
 }
 
 html {
@@ -817,6 +837,24 @@ h4 {
 .social div img {
   width: 135px;
   height: 100%;
+}
+
+.icons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.icons-container a {
+  color: var(--primary-color);
+  font-size: 4rem;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.icons-container a:hover {
+  color: var(--primary-color-hover);
 }
 
 /* Circle Animation */

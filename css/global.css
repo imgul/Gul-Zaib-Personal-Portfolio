@@ -336,7 +336,10 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin: 3rem;
+  min-width: 100%;
+  padding: 6rem 0;
+  margin: 1rem 0;
+  background: var(--bg-secondary-color);
 }
 
 /* ------- Animation starts here ------ */
