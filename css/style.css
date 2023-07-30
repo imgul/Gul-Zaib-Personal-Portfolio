@@ -281,7 +281,7 @@ h4 {
   position: absolute;
   top: 50px;
   left: -20px;
-  background-image: url(https://skillicons.dev/icons?i=react&theme=dark);
+  background-image: url(https://skillicons.dev/icons?i=php&theme=dark);
   /* https://skills.thijs.gg/icons?i=java,kotlin,nodejs,figma&theme=light */
   background-repeat: no-repeat;
   width: 60px;
@@ -295,7 +295,7 @@ h4 {
   position: absolute;
   bottom: -40px;
   right: 28%;
-  background-image: url(https://skillicons.dev/icons?i=express,mongo&theme=dark);
+  background-image: url(https://skillicons.dev/icons?i=mysql,linux&theme=dark);
   background-size: 110px;
   background-repeat: no-repeat;
   width: 120px;
@@ -310,7 +310,7 @@ h4 {
   right: -30px;
   width: 60px;
   height: 60px;
-  background-image: url(https://skillicons.dev/icons?i=nodejs&theme=dark);
+  background-image: url(https://skillicons.dev/icons?i=laravel&theme=dark);
   background-repeat: no-repeat;
 }
 
@@ -359,7 +359,6 @@ h4 {
 }
 
 .skills .box-header {
-  align-self: center;
   padding: 1rem;
 }
 
