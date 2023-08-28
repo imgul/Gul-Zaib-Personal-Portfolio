@@ -314,6 +314,31 @@ h4 {
   background-repeat: no-repeat;
 }
 
+
+/* This is my girlfriend's name. Design it in purlple color and apply purlple heart before and after */
+.my-love {
+  text-decoration: underline;
+  color: #8a2be2;
+  font-weight: 800;
+}
+
+.my-love::before {
+  content: "❤";
+  margin-right: 0.5rem;
+}
+
+.my-love::after {
+  content: "❤";
+  margin-left: 0.5rem;
+}
+
+/* on hover my-love, fill its background with purple color and change the text color to white and use smooth transitions */
+.my-love:hover {
+  background-color: #8a2be2;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
 /* About */
 #about {
   min-height: 100vh;
